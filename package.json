@@ -1,16 +1,14 @@
 {
   "name": "week2-node-express",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Week 2 assignment: a simple Express API",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "dotenv": "^18.0.10",
-    "express": "^5.3.0"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
   }
 }
